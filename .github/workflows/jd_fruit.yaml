@@ -42,7 +42,6 @@ jobs:
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
-          PUSH_KEY: ${{ secrets.PUSH_KEY }}
           BARK_PUSH: ${{ secrets.BARK_PUSH }}
           FRUITSHARECODES: ${{ secrets.FRUITSHARECODES }}
           FRUIT_BEAN_CARD: ${{ secrets.FRUIT_BEAN_CARD }}
